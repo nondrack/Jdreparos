@@ -1,0 +1,95 @@
+.navbar{
+    background-color: rgb(37, 37, 37) !important;
+    a{
+        color: white;
+    }
+   
+    height: 120px;
+    width: 100%;
+    .btn{
+        margin-right: 20px;
+    }
+      .btn:hover{
+        background-color: green;
+        border: 0;
+    }
+    .btn{
+        font-size: 20px;
+    }
+    
+}
+
+
+.navbar-brand{
+    img{
+        width: 120px;
+        
+        
+    }
+}
+  
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    img{
+        width: 30%;
+        margin: auto;
+        padding-right: 10px;
+        border-radius: 20px;
+        
+        
+    }
+}
+.servico-titulo {
+    text-align: center;
+    margin-top: 50px;
+}
+.servico{
+    .container{
+        h2{
+            text-align: center;
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+        img{
+            width: 200px;
+        }
+    }
+    .flex{
+        flex-direction: row;
+        display: flex;
+        text-align: center;
+        gap: 50px;
+        .text{
+            text-align: justify;
+        }
+        .btn{
+            margin: 30px;
+        }
+        .btn:hover{
+            background-color: green;
+            border: 0;
+        }
+    }
+}
+footer{
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    h3{
+        padding-top: 20px;
+    }
+    .social{
+        color: white;
+        a{
+            padding: 10px;
+            font-size: 30px;
+        }
+
+    }
+    .direitos{
+        color: white;
+        padding-bottom: 20px;
+    }
+}
