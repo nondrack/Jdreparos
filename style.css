@@ -37,3 +37,14 @@
   text-align: right;
   margin-left: 20%;
 }
+.btn:hover {
+  background-color:green;
+  font-size: 20px;
+}
+.oque-fazemos {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 5px;
+  margin-top: 30px;
+}
